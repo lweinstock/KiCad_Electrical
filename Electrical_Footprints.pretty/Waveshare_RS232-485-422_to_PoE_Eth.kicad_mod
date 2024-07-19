@@ -1,0 +1,208 @@
+(footprint "Waveshare_RS232-485-422_to_PoE_Eth"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WaveShare Rail-Mount Serial Server RS232/485/422 to RJ45 Ethernet Module")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d2ca9b2a-fbaf-4e5c-b431-ad8b4af4891a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Waveshare_RS232-485-422_to_PoE_Eth"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a853bd1-4a22-491b-a12a-0ab7ba791f46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1601979e-2dc6-4ed8-b934-0dd4bcf0dcff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ab1e9e8-275b-4851-82c3-ea9227f99496")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ba54a38-7dee-445e-a5e7-18b7740bd0fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11 25)
+		(end -11 35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9513672b-7890-4891-bf71-83026ec0e2bc")
+	)
+	(fp_line
+		(start -11 35)
+		(end 4 35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43625ba1-8abf-4719-8daf-e4b14bffa564")
+	)
+	(fp_line
+		(start 4 35)
+		(end 4 25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "146fb3b8-08f4-44c3-ba0b-ebb8bb4ddde2")
+	)
+	(fp_rect
+		(start -12.5 25)
+		(end 12.5 -50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6029a991-ac4f-485d-a61a-dc6677c4db6a")
+	)
+	(fp_rect
+		(start -6.5 -54.5)
+		(end 2.5 -54.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0f599f10-8f2c-4344-ad47-4187a4211a86")
+	)
+	(fp_rect
+		(start -6.5 -50)
+		(end -6.5 -54.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "de09e24b-881d-4526-bfb2-eae602aff818")
+	)
+	(fp_rect
+		(start 2.5 -54.5)
+		(end 2.5 -50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "850bac8b-f254-4fa7-832c-6c51e6b7e626")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d22ee63c-1163-4f97-beec-9c7304151935")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -9.5 35)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fb5c2295-0189-4759-8cd5-960447def439")
+	)
+	(pad "2" smd circle
+		(at -7.5 35)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "961f09d1-b456-498c-9952-1c20416cab39")
+	)
+	(pad "3" smd circle
+		(at -5.5 35)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "28e25ded-9851-4b91-9b2d-b3534571d861")
+	)
+	(pad "4" smd circle
+		(at -3.5 35)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "be310578-e799-4e7b-b144-9ef6278effaa")
+	)
+	(pad "5" smd circle
+		(at -1.5 35)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "826db1b7-4e01-4f13-810b-532fd707c3bf")
+	)
+	(pad "6" smd circle
+		(at 0.5 35)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9ca999e4-ece0-4a88-bea4-8d76c41d9769")
+	)
+	(pad "7" smd circle
+		(at 2.5 35)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "86f6b543-8c82-4873-8636-510c11c9fda6")
+	)
+	(pad "8" smd circle
+		(at -2 -50)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d02cefea-ad12-4e30-a852-87b3322e0878")
+	)
+	(pad "9" smd circle
+		(at -2 -54.5)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b439fa5e-e90b-4632-8412-5a9b0211bc32")
+	)
+)
