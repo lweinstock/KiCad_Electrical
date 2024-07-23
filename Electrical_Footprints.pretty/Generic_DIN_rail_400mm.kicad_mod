@@ -76,6 +76,16 @@
 		(layer "F.CrtYd")
 		(uuid "5f661142-b588-4a5a-bce5-b04e5fb31eb9")
 	)
+	(fp_line
+		(start -200.233377 -0.028222)
+		(end 199.77514 0.035278)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "User.1")
+		(uuid "26ebd47a-9893-4223-ad51-e710bf49ba96")
+	)
 	(fp_poly
 		(pts
 			(xy 17.945147 -2.967306) (xy 18.584848 -2.628563) (xy 19.10467 -2.191666) (xy 19.50481 -1.676946)

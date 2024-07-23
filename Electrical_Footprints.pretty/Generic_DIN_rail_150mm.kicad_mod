@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -505,6 +505,16 @@
 		)
 		(layer "User.1")
 		(uuid "b5441862-3909-4075-bcd8-e300497601b7")
+	)
+	(fp_line
+		(start 75 0)
+		(end -75 0)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "User.1")
+		(uuid "18871f23-9eac-455a-a356-0e2b6afe2f2a")
 	)
 	(fp_line
 		(start 75 12)

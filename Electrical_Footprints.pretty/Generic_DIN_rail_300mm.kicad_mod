@@ -146,6 +146,16 @@
 		(uuid "a652653b-e0ad-42b2-87ef-c022a05f4c1b")
 	)
 	(fp_line
+		(start -149.99995 0)
+		(end 149.99995 0)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "User.1")
+		(uuid "c42a1453-1775-4dec-aa5e-2f2784bac5dd")
+	)
+	(fp_line
 		(start -149.99995 11.5002)
 		(end -149.99995 -11.5002)
 		(stroke
