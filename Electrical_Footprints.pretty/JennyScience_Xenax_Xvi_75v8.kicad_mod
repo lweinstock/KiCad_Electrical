@@ -5600,6 +5600,20 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at 0 -62.5)
+		(size 6.5 6.5)
+		(drill 6.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d7a7257f-63fa-4d50-8360-ba884013824b")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 62.5)
+		(size 6.5 6.5)
+		(drill 6.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8d2c5f17-a4c6-412f-b735-b96c2d801e06")
+	)
 	(pad "1" smd circle
 		(at -13 56)
 		(size 1.5 1.5)

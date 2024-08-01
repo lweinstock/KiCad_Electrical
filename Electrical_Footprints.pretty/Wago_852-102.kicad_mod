@@ -1311,7 +1311,7 @@
 	)
 	(model "3DModels/Wago_852-102.step"
 		(offset
-			(xyz 25 -80 8)
+			(xyz 25 -75 8)
 		)
 		(scale
 			(xyz 1 1 1)
