@@ -1,0 +1,138 @@
+(footprint "Eaton_121611"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Eaton Moeller series C22 Emergency-stop button")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f608338-66e6-4258-b7ab-5050b2c4dc49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "121611"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c12d4ff7-4417-4a75-9dd0-cf64a824b6a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba6349f6-9c29-4757-b6fb-df34833b2db9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9842d68e-a0ae-4c3b-b82e-10b4ef9e9506")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f998a18f-69f7-4abf-9d59-7551c5619147")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 22.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b8a314bd-62b1-463c-82bb-6259438283c4")
+	)
+	(fp_rect
+		(start -22.5 -22.5)
+		(end 22.5 22.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b7608c0d-b286-41f5-9fa7-045c97c3c628")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "108b322c-a1c3-4ffd-96ea-0df6c4221f05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" smd circle
+		(at -3 5)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bd2980e3-d641-4f81-af1e-5fe8e917c601")
+	)
+	(pad "12" smd circle
+		(at -3 -5)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "288b407e-12bd-43c4-b14b-126ca4aa204a")
+	)
+	(pad "21" smd circle
+		(at 3 5)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d85c582-8486-44a9-bbb2-a0e845a00d9b")
+	)
+	(pad "22" smd circle
+		(at 3 -5)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9dcf5c80-f695-4073-8ff7-ccef5eacd7e8")
+	)
+	(model "3DModels/Eaton_121611.stp"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

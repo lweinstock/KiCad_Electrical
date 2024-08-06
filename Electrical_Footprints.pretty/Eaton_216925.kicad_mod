@@ -1,0 +1,148 @@
+(footprint "Eaton_216925"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Leuchtdrucktasten")
+	(property "Reference" "REF**"
+		(at 0 -6.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f608338-66e6-4258-b7ab-5050b2c4dc49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "216925"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c12d4ff7-4417-4a75-9dd0-cf64a824b6a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba6349f6-9c29-4757-b6fb-df34833b2db9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9842d68e-a0ae-4c3b-b82e-10b4ef9e9506")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f998a18f-69f7-4abf-9d59-7551c5619147")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5c884cdf-aca4-4296-a7e7-1d19370b435a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b8a314bd-62b1-463c-82bb-6259438283c4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8ee65a88-2826-4321-b406-a119c43faa38")
+	)
+	(fp_rect
+		(start -15 -15)
+		(end 15 15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b7608c0d-b286-41f5-9fa7-045c97c3c628")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "108b322c-a1c3-4ffd-96ea-0df6c4221f05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "23" smd circle
+		(at -5 0)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bd2980e3-d641-4f81-af1e-5fe8e917c601")
+	)
+	(pad "24" smd circle
+		(at 5 0)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d85c582-8486-44a9-bbb2-a0e845a00d9b")
+	)
+	(model "3DModels/Eaton_216925.stp"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
