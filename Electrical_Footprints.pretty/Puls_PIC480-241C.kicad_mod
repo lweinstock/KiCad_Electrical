@@ -5,15 +5,16 @@
 	(layer "F.Cu")
 	(descr "DIN rail power supply for 1-phase system 24 V, 20 A")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
-		(unlocked yes)
+		(at 0 65 0)
 		(layer "F.SilkS")
 		(uuid "7eac58a5-3543-4231-b187-b9e53da6165b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
 			)
+			(justify top)
 		)
 	)
 	(property "Value" "PIC480-241C"

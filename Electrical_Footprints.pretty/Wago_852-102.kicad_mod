@@ -5,15 +5,16 @@
 	(layer "F.Cu")
 	(descr "Industrial-Switch; 8-port 100Base-TX; black")
 	(property "Reference" "REF**"
-		(at 0 -15.7 0)
-		(unlocked yes)
+		(at 0 80 0)
 		(layer "F.SilkS")
 		(uuid "71fa0cc7-aa26-4f8a-9a97-39e108475b65")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
 			)
+			(justify top)
 		)
 	)
 	(property "Value" "852-102"

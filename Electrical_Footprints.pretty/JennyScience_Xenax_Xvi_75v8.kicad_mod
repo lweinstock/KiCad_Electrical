@@ -5,15 +5,16 @@
 	(layer "F.Cu")
 	(descr "Compact Servomotor Controller")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
-		(unlocked yes)
+		(at 0 75 0)
 		(layer "F.SilkS")
 		(uuid "d6872f02-db83-4ec3-9429-df43bb15e37f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
 			)
+			(justify top)
 		)
 	)
 	(property "Value" "JennyScience_Xenax_Xvi_75v8"

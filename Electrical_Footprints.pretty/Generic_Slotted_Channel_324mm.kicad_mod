@@ -8,6 +8,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "54dbf628-9bf6-4ad1-8aa3-7980cbabf51b")
 		(effects
 			(font
@@ -16,10 +17,11 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "c47bd861-7b64-408e-a42e-61cd9733f04d")
 		(effects
 			(font
@@ -4499,6 +4501,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "5b17abd0-5046-4997-b74c-d2713f32f26e")
 		(effects
 			(font

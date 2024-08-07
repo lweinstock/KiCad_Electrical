@@ -8,6 +8,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "20662e95-5916-43b4-802d-358c153d2e35")
 		(effects
 			(font
@@ -20,6 +21,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a319cc24-5d9a-4c68-b381-790f4bc77881")
 		(effects
 			(font
@@ -608,6 +610,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "b591ed13-48aa-4777-acdf-db59c41308f6")
 		(effects
 			(font

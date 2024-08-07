@@ -5,15 +5,17 @@
 	(layer "F.Cu")
 	(descr "4-conductor through terminal block; 2.5 mm²; suitable for Ex e II applications; side and center marking; for DIN-rail 35 x 15 and 35 x 7.5; Push-in CAGE CLAMP®; 2,50 mm²; gray")
 	(property "Reference" "REF**"
-		(at 0 -11 0)
+		(at 0 35 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8daa5468-8e18-4029-bffb-55a020bbd9ac")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
 			)
+			(justify right)
 		)
 	)
 	(property "Value" "2002-1401"

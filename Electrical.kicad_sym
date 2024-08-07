@@ -4694,6 +4694,95 @@
 			)
 		)
 	)
+	(symbol "Generic_Jack"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "-XD"
+			(at -1.27 -1.27 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 1.27 -1.27 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graphical representation of a jack"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Generic_Jack_1_1"
+			(arc
+				(start -0.635 -0.635)
+				(mid 0 -1.27)
+				(end 0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Generic_Loadbreaker_3Pole"
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -5068,6 +5157,108 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Generic_Plug"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "-XD"
+			(at -1.27 -1.27 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at -1.27 1.27 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graphical representation of a plug"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Generic_Plug_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Generic_Plug_1_1"
+			(rectangle
+				(start 0.254 -0.508)
+				(end -0.254 0.508)
+				(stroke
+					(width 0.0254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
